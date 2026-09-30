@@ -1,0 +1,25 @@
+# Web Framework & Async
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+websockets>=12.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# LLM
+anthropic>=0.28.0
+
+# Speech Services
+deepgram-sdk>=3.0.0
+elevenlabs>=0.2.0
+
+# Vector Search & Embeddings (RAG)
+faiss-cpu>=1.7.4
+langchain>=0.1.0
+langchain-community>=0.0.10
+sentence-transformers>=2.2.0
+
+# Data Processing
+numpy>=1.24.0
+
+# HTTP
+requests>=2.31.0

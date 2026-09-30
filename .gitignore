@@ -1,0 +1,26 @@
+# secrets — never commit these
+.env
+*/.env
+**/.env
+
+# dependencies
+node_modules/
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# build output
+frontend-layer/build/
+frontend-layer/dist/
+
+# editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# duplicate files Windows sometimes creates
+*(1).*
+*(2).*
