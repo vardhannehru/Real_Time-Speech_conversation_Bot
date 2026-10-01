@@ -99,7 +99,22 @@ Open `http://localhost:3000`, allow microphone access, and press `{start recordi
 
 ```
 Real_Time-Speech_conversation_Bot/
-├── frontend-layer/   React + TypeScript chat and voice UI
-├── backend-layer/    Node/Express WebSocket relay
-└── ai-layer/         FastAPI service: STT, RAG, LLM streaming, TTS
+├── frontend-layer/    React + TypeScript chat and voice UI
+├── backend-layer/     Node/Express WebSocket relay
+├── ai-layer/          FastAPI service: STT, RAG, LLM streaming, TTS
+└── docs/screenshots/  README images
 ```
+
+## See it in action
+
+| Idle, listening for you | Thinking it through |
+|---|---|
+| ![Assistant idle](docs/screenshots/assistant.jpg) | ![Thinking](docs/screenshots/thinking.jpg) |
+
+**Chat with a grounded, typed-out answer:**
+
+![Chat answer](docs/screenshots/chat.jpg)
+
+**Latency panel, hidden until you hover it:**
+
+![Latency panel](docs/screenshots/latency.jpg)
