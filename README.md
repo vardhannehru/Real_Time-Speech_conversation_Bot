@@ -2,8 +2,6 @@
 
 A voice assistant for the **ReveloSoft AI Engineer Bootcamp**, built on **Retrieval-Augmented Generation (RAG)**. Ask it a question out loud or type it, and it searches the bootcamp's own class recordings and notes for the relevant passages, then answers from those passages, speaking its reply back one sentence at a time while you can still interrupt it mid-answer.
 
-![Talk to Harvey — hero](docs/screenshots/hero.jpg)
-
 ![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-TypeScript-61DAFB?logo=react&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi&logoColor=white)
@@ -28,22 +26,6 @@ A voice assistant for the **ReveloSoft AI Engineer Bootcamp**, built on **Retrie
 - **Speaks as it thinks.** The reply streams in from the LLM, is cut into sentences, and each sentence is spoken as soon as it is ready — no waiting for the whole answer.
 - **Barge-in.** Interrupt the bot by pressing Stop, or by talking over it with headphones on.
 - **Built-in timing.** A hidden `{Latency}` panel breaks down every step — speech-to-text, search, first word, first sentence, first voice clip — so slowness can be traced to one stage.
-
-## See it in action
-
-| Idle, listening for you | Thinking it through |
-|---|---|
-| ![Assistant idle](docs/screenshots/assistant.jpg) | ![Thinking](docs/screenshots/thinking.jpg) |
-
-**Chat with a grounded, typed-out answer:**
-
-![Chat answer](docs/screenshots/chat.jpg)
-
-**Latency panel, hidden until you hover it:**
-
-![Latency panel](docs/screenshots/latency.jpg)
-
----
 
 ## Architecture
 
@@ -119,6 +101,5 @@ Open `http://localhost:3000`, allow microphone access, and press `{start recordi
 Real_Time-Speech_conversation_Bot/
 ├── frontend-layer/   React + TypeScript chat and voice UI
 ├── backend-layer/    Node/Express WebSocket relay
-├── ai-layer/         FastAPI service: STT, RAG, LLM streaming, TTS
-└── docs/screenshots/ README images
+└── ai-layer/         FastAPI service: STT, RAG, LLM streaming, TTS
 ```
