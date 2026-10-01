@@ -1,0 +1,8 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "ai-layer", "runtimeExecutable": "python", "runtimeArgs": ["-X", "utf8", "app.py"], "port": 8000, "cwd": "ai-layer" },
+    { "name": "backend", "runtimeExecutable": "node", "runtimeArgs": ["app.js"], "port": 5000, "cwd": "backend-layer" },
+    { "name": "frontend", "runtimeExecutable": "npm", "runtimeArgs": ["start"], "port": 3000, "cwd": "frontend-layer" }
+  ]
+}
