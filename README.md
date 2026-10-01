@@ -122,7 +122,3 @@ Real_Time-Speech_conversation_Bot/
 ├── ai-layer/         FastAPI service: STT, RAG, LLM streaming, TTS
 └── docs/screenshots/ README images
 ```
-
----
-
-Built by **Vardhan, Prashanth, Karthik and Bindu** for the ReveloSoft AI Engineer Bootcamp.
